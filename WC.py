@@ -11,5 +11,5 @@ class WordCounter:
 				count = len(pl.read().split())
 			print("In "+filename+" are "+str(count)+" words")
 
-WC = WordCounter("baseline_BdJPsiKs_MagD.log", "DR_BdJPsiKs_MagD_1k.log", "DR_NE_BdJPsiKs_MagD.log", "DR_NE_BdJPsiKs_MagD_1k.log")
+WC = WordCounter("test.txt", "baseline_BdJPsiKs_MagD.log", "DR_BdJPsiKs_MagD_1k.log", "DR_NE_BdJPsiKs_MagD.log", "DR_NE_BdJPsiKs_MagD_1k.log")
 WC.countWord()
